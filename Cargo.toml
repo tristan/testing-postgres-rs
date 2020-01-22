@@ -1,0 +1,13 @@
+[package]
+name = "testing-postgres"
+version = "0.1.0"
+authors = ["Tristan King <tristan.king@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+license = "MIT"
+description = "A tool for starting postgresql instances for testing."
+keywords = ["database", "postgres", "postgresql", "sql", "testing"]
+categories = ["development-tools::testing"]
+
+[dependencies]
+tempdir = "0.3"
